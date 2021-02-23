@@ -3,7 +3,7 @@ rc-service nginx start
 rc-service telegraf start
 rc-service php-fpm7 start
 
-sleep 3
+sleep 5
 
 while true;
 	do

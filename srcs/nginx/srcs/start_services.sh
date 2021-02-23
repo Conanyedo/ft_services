@@ -3,7 +3,7 @@ rc-service nginx start
 rc-service telegraf start
 /etc/init.d/sshd start
 
-sleep 3
+sleep 5
 
 while true;
 	do

@@ -2,7 +2,7 @@ openrc default
 rc-service influxdb start
 rc-service telegraf start
 
-sleep 3
+sleep 5
 
 while true;
 	do

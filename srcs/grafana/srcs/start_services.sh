@@ -2,7 +2,7 @@ openrc default
 rc-service telegraf start
 (cd /grafana && ./bin/grafana-server) 1>/dev/null
 
-sleep 3
+sleep 5
 
 while true;
 	do

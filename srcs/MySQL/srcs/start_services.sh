@@ -13,7 +13,7 @@ mysql -u root < wordpress.sql
 
 rc-service mariadb restart
 
-sleep 3
+sleep 5
 
 while true;
 	do
