@@ -13,9 +13,9 @@ mysql -u root < wordpress.sql
 
 rc-service mariadb restart
 
-rc-status
+sleep 3
 
-while sleep 1;
+while true;
 	do
 		pgrep telegraf > /dev/null
 		telegraf_status=$? 

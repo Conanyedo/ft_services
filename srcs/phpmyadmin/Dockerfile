@@ -22,8 +22,8 @@ RUN rm /phpmyadmin/config.sample.inc.php
 COPY ./srcs/config.inc.php /phpmyadmin/
 RUN mv phpmyadmin /www/
 RUN rc-update add nginx default
-RUN rc-update add telegraf default
 RUN rc-update add php-fpm7 default
+RUN rc-update add telegraf default
 COPY ./srcs/start_services.sh /
 RUN chmod 777 /start_services.sh
 CMD /start_services.sh

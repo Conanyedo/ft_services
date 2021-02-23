@@ -2,9 +2,10 @@ openrc default
 rc-service nginx start
 rc-service telegraf start
 /etc/init.d/sshd start
-rc-status
 
-while sleep 1;
+sleep 3
+
+while true;
 	do
 		pgrep nginx > /dev/null
 		nginx_status=$?

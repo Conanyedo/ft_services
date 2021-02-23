@@ -1,10 +1,10 @@
 openrc default
-
 rc-service vsftpd start
 rc-service telegraf start
-rc-status
 
-while sleep 1;
+sleep 3
+
+while true;
 	do
         pgrep telegraf > /dev/null
 		telegraf_status=$? 

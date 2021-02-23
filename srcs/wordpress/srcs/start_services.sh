@@ -1,11 +1,11 @@
 openrc default
-
 rc-service nginx start
-rc-service php-fpm7 start
 rc-service telegraf start
-rc-status
+rc-service php-fpm7 start
 
-while sleep 1;
+sleep 3
+
+while true;
 	do
 		pgrep telegraf > /dev/null
 		telegraf_status=$? 

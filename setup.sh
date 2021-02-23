@@ -28,9 +28,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating nginx image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating nginx image ..  -"
+    echo -ne "\r\033[0K⏱ Creating nginx image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating nginx image ... /"
+    echo -ne "\r\033[0K⏱ Creating nginx image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Nginx image was created successfully"
@@ -40,9 +40,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating phpmyadmin image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating phpmyadmin image ..  -"
+    echo -ne "\r\033[0K⏱ Creating phpmyadmin image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating phpmyadmin image ... /"
+    echo -ne "\r\033[0K⏱ Creating phpmyadmin image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Phpmyadmin image was created successfully"
@@ -52,9 +52,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating wordpress image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating wordpress image ..  -"
+    echo -ne "\r\033[0K⏱ Creating wordpress image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating wordpress image ... /"
+    echo -ne "\r\033[0K⏱ Creating wordpress image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Wordpress image was created successfully"
@@ -64,9 +64,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating influxdb image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating influxdb image ..  -"
+    echo -ne "\r\033[0K⏱ Creating influxdb image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating influxdb image ... /"
+    echo -ne "\r\033[0K⏱ Creating influxdb image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Influxdb image was created successfully"
@@ -76,9 +76,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating grafana image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating grafana image ..  -"
+    echo -ne "\r\033[0K⏱ Creating grafana image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating grafana image ... /"
+    echo -ne "\r\033[0K⏱ Creating grafana image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Grafana image was created successfully"
@@ -88,9 +88,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating MySQL image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating MySQL image ..  -"
+    echo -ne "\r\033[0K⏱ Creating MySQL image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating MySQL image ... /"
+    echo -ne "\r\033[0K⏱ Creating MySQL image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} MySQL image was created successfully"
@@ -100,9 +100,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating FTPS image .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating FTPS image ..  -"
+    echo -ne "\r\033[0K⏱ Creating FTPS image ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating FTPS image ... /"
+    echo -ne "\r\033[0K⏱ Creating FTPS image ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} FTPS image was created successfully"
@@ -118,9 +118,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Installing MetalLB .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Installing MetalLB ..  -"
+    echo -ne "\r\033[0K⏱ Installing MetalLB ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Installing MetalLB ... /"
+    echo -ne "\r\033[0K⏱ Installing MetalLB ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} MetalLB was installed successfully"
@@ -136,9 +136,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating MetalLB deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating MetalLB deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating MetalLB deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating MetalLB deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating MetalLB deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} MetalLB deployment was created successfully"
@@ -148,9 +148,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating Nginx deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Nginx deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating Nginx deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Nginx deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating Nginx deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Nginx deployment was created successfully"
@@ -160,9 +160,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating Phpmyadmin deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Phpmyadmin deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating Phpmyadmin deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Phpmyadmin deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating Phpmyadmin deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Phpmyadmin deployment was created successfully"
@@ -172,9 +172,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating Wordpress deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Wordpress deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating Wordpress deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Wordpress deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating Wordpress deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Wordpress deployment was created successfully"
@@ -184,9 +184,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating Influxdb deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Influxdb deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating Influxdb deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Influxdb deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating Influxdb deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Influxdb deployment was created successfully"
@@ -196,9 +196,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating Grafana deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Grafana deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating Grafana deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating Grafana deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating Grafana deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} Grafana deployment was created successfully"
@@ -208,9 +208,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating MySQL deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating MySQL deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating MySQL deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating MySQL deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating MySQL deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} MySQL deployment was created successfully"
@@ -220,9 +220,9 @@ PROC_ID=$!
 while kill -0 "$PROC_ID" >/dev/null 2>&1; do
     echo -ne "\r\033[0K⏱ Creating FTPS deployment .   \\"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating FTPS deployment ..  -"
+    echo -ne "\r\033[0K⏱ Creating FTPS deployment ..  /"
     sleep 0.2
-    echo -ne "\r\033[0K⏱ Creating FTPS deployment ... /"
+    echo -ne "\r\033[0K⏱ Creating FTPS deployment ... -"
     sleep 0.2
 done
 echo -e "\r\033[0K${CHECK_MARK} FTPS deployment was created successfully"
