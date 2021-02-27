@@ -235,3 +235,5 @@ echo -e "${Blue}   ➡️ Kubectl get all${NC} ${Green}// show all cluster compo
 echo -e "${Blue}   ➡️ Kubectl get pods${NC} ${Green}// show all pods${NC}"
 echo -e "${Blue}   ➡️ Kubectl get services${NC} ${Green}// show all services${NC}"
 echo -e "${Blue}   ➡️ Kubectl get deployments${NC} ${Green}// show all deployments${NC}"
+
+minikube dashboard
