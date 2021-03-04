@@ -1,7 +1,7 @@
 rc-service vsftpd start
 rc-service telegraf start
 
-sleep 5
+sleep 7
 
 while sleep 2;
 	do
