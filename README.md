@@ -1,4 +1,4 @@
-# Ft_Services
+# Ft_Services 
 
 This project is an introduction to Kubernetes, we will discover cluster management, deployment with Kubernetes, virtualizing a network and do "clustering". 
 
@@ -36,3 +36,5 @@ already build images or use services like DockerHub.
 ```bash
 ./setup.sh
 ```
+
+![image](https://user-images.githubusercontent.com/54075373/178770360-0aa72c09-7380-41aa-8e25-d7831d87f676.png)
